@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BookShop.Intranet.props" />
+</Project>
