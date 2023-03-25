@@ -5,6 +5,62 @@
       "PackagePath": "staticwebassets\\BookShop.PortalWWW.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\Images\\b.jpg",
+      "PackagePath": "staticwebassets\\Images\\b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\Images\\b1.jpg",
+      "PackagePath": "staticwebassets\\Images\\b1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\Images\\b2.jpg",
+      "PackagePath": "staticwebassets\\Images\\b2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\Images\\b3.jpg",
+      "PackagePath": "staticwebassets\\Images\\b3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\Images\\b4.jpg",
+      "PackagePath": "staticwebassets\\Images\\b4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\Images\\bok.jpg",
+      "PackagePath": "staticwebassets\\Images\\bok.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\Images\\book-genres.jpg",
+      "PackagePath": "staticwebassets\\Images\\book-genres.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\Images\\harry.jpg",
+      "PackagePath": "staticwebassets\\Images\\harry.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\Images\\horror.jpg",
+      "PackagePath": "staticwebassets\\Images\\horror.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\Images\\logo.png",
+      "PackagePath": "staticwebassets\\Images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\Images\\rework1.jpg",
+      "PackagePath": "staticwebassets\\Images\\rework1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\Images\\rework2.jpg",
+      "PackagePath": "staticwebassets\\Images\\rework2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\Images\\rework3.jpg",
+      "PackagePath": "staticwebassets\\Images\\rework3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\Images\\sales.jpg",
+      "PackagePath": "staticwebassets\\Images\\sales.jpg"
+    },
+    {
       "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -245,176 +301,28 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\.project",
-      "PackagePath": "staticwebassets\\lib\\materialize\\.project"
+      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\materialize\\css\\materialize.css",
+      "PackagePath": "staticwebassets\\materialize\\css\\materialize.css"
     },
     {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\css\\index.css",
-      "PackagePath": "staticwebassets\\lib\\materialize\\css\\index.css"
+      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\materialize\\css\\materialize.min.css",
+      "PackagePath": "staticwebassets\\materialize\\css\\materialize.min.css"
     },
     {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\css\\materialize.css",
-      "PackagePath": "staticwebassets\\lib\\materialize\\css\\materialize.css"
+      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\materialize\\css\\style.css",
+      "PackagePath": "staticwebassets\\materialize\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\css\\materialize.min.css",
-      "PackagePath": "staticwebassets\\lib\\materialize\\css\\materialize.min.css"
+      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\materialize\\js\\init.js",
+      "PackagePath": "staticwebassets\\materialize\\js\\init.js"
     },
     {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\css\\style.css",
-      "PackagePath": "staticwebassets\\lib\\materialize\\css\\style.css"
+      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\materialize\\js\\materialize.js",
+      "PackagePath": "staticwebassets\\materialize\\js\\materialize.js"
     },
     {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\font\\material-design-icons\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\materialize\\font\\material-design-icons\\LICENSE.txt"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\font\\material-design-icons\\Material-Design-Icons.eot",
-      "PackagePath": "staticwebassets\\lib\\materialize\\font\\material-design-icons\\Material-Design-Icons.eot"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\font\\material-design-icons\\Material-Design-Icons.svg",
-      "PackagePath": "staticwebassets\\lib\\materialize\\font\\material-design-icons\\Material-Design-Icons.svg"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\font\\material-design-icons\\Material-Design-Icons.ttf",
-      "PackagePath": "staticwebassets\\lib\\materialize\\font\\material-design-icons\\Material-Design-Icons.ttf"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\font\\material-design-icons\\Material-Design-Icons.woff",
-      "PackagePath": "staticwebassets\\lib\\materialize\\font\\material-design-icons\\Material-Design-Icons.woff"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\font\\roboto\\Roboto-Bold.ttf",
-      "PackagePath": "staticwebassets\\lib\\materialize\\font\\roboto\\Roboto-Bold.ttf"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\font\\roboto\\Roboto-Light.ttf",
-      "PackagePath": "staticwebassets\\lib\\materialize\\font\\roboto\\Roboto-Light.ttf"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\font\\roboto\\Roboto-Medium.ttf",
-      "PackagePath": "staticwebassets\\lib\\materialize\\font\\roboto\\Roboto-Medium.ttf"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\font\\roboto\\Roboto-Regular.ttf",
-      "PackagePath": "staticwebassets\\lib\\materialize\\font\\roboto\\Roboto-Regular.ttf"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\font\\roboto\\Roboto-Thin.ttf",
-      "PackagePath": "staticwebassets\\lib\\materialize\\font\\roboto\\Roboto-Thin.ttf"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\images\\1397154567yttyy.jpg",
-      "PackagePath": "staticwebassets\\lib\\materialize\\images\\1397154567yttyy.jpg"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\images\\1399827845b0i1k.jpg",
-      "PackagePath": "staticwebassets\\lib\\materialize\\images\\1399827845b0i1k.jpg"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\images\\1412019519aax7e.jpg",
-      "PackagePath": "staticwebassets\\lib\\materialize\\images\\1412019519aax7e.jpg"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\images\\1415117217bc45x.jpg",
-      "PackagePath": "staticwebassets\\lib\\materialize\\images\\1415117217bc45x.jpg"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\images\\1423255813yuwjj.jpg",
-      "PackagePath": "staticwebassets\\lib\\materialize\\images\\1423255813yuwjj.jpg"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\images\\blue.jpg",
-      "PackagePath": "staticwebassets\\lib\\materialize\\images\\blue.jpg"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\images\\blur-flowers-nature-471-827x550.jpg",
-      "PackagePath": "staticwebassets\\lib\\materialize\\images\\blur-flowers-nature-471-827x550.jpg"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\images\\book1.jpg",
-      "PackagePath": "staticwebassets\\lib\\materialize\\images\\book1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\images\\bookshelf.jpg",
-      "PackagePath": "staticwebassets\\lib\\materialize\\images\\bookshelf.jpg"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\images\\dream-infrared-meadow-2220-824x550.jpg",
-      "PackagePath": "staticwebassets\\lib\\materialize\\images\\dream-infrared-meadow-2220-824x550.jpg"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\images\\favicon (8).ico",
-      "PackagePath": "staticwebassets\\lib\\materialize\\images\\favicon (8).ico"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\images\\favicon.ico",
-      "PackagePath": "staticwebassets\\lib\\materialize\\images\\favicon.ico"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\images\\flat_web_icon_set\\inverted\\Email.png",
-      "PackagePath": "staticwebassets\\lib\\materialize\\images\\flat_web_icon_set\\inverted\\Email.png"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\images\\flat_web_icon_set\\inverted\\Facebook.png",
-      "PackagePath": "staticwebassets\\lib\\materialize\\images\\flat_web_icon_set\\inverted\\Facebook.png"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\images\\flat_web_icon_set\\inverted\\GooglePlus.png",
-      "PackagePath": "staticwebassets\\lib\\materialize\\images\\flat_web_icon_set\\inverted\\GooglePlus.png"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\images\\flat_web_icon_set\\inverted\\LinkedIn.png",
-      "PackagePath": "staticwebassets\\lib\\materialize\\images\\flat_web_icon_set\\inverted\\LinkedIn.png"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\images\\flat_web_icon_set\\inverted\\Pinboard.png",
-      "PackagePath": "staticwebassets\\lib\\materialize\\images\\flat_web_icon_set\\inverted\\Pinboard.png"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\images\\flat_web_icon_set\\inverted\\Pinterest.png",
-      "PackagePath": "staticwebassets\\lib\\materialize\\images\\flat_web_icon_set\\inverted\\Pinterest.png"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\images\\flat_web_icon_set\\inverted\\Pocket.png",
-      "PackagePath": "staticwebassets\\lib\\materialize\\images\\flat_web_icon_set\\inverted\\Pocket.png"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\images\\flat_web_icon_set\\inverted\\Reddit.png",
-      "PackagePath": "staticwebassets\\lib\\materialize\\images\\flat_web_icon_set\\inverted\\Reddit.png"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\images\\flat_web_icon_set\\inverted\\Tumblr.png",
-      "PackagePath": "staticwebassets\\lib\\materialize\\images\\flat_web_icon_set\\inverted\\Tumblr.png"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\images\\flat_web_icon_set\\inverted\\Twitter.png",
-      "PackagePath": "staticwebassets\\lib\\materialize\\images\\flat_web_icon_set\\inverted\\Twitter.png"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\images\\flat_web_icon_set\\inverted\\Wordpress.png",
-      "PackagePath": "staticwebassets\\lib\\materialize\\images\\flat_web_icon_set\\inverted\\Wordpress.png"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\images\\flower-pink-spring-4331-825x550.jpg",
-      "PackagePath": "staticwebassets\\lib\\materialize\\images\\flower-pink-spring-4331-825x550.jpg"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\index.html",
-      "PackagePath": "staticwebassets\\lib\\materialize\\index.html"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\js\\init.js",
-      "PackagePath": "staticwebassets\\lib\\materialize\\js\\init.js"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\js\\materialize.js",
-      "PackagePath": "staticwebassets\\lib\\materialize\\js\\materialize.js"
-    },
-    {
-      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\lib\\materialize\\js\\materialize.min.js",
-      "PackagePath": "staticwebassets\\lib\\materialize\\js\\materialize.min.js"
+      "Id": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.PortalWWW\\wwwroot\\materialize\\js\\materialize.min.js",
+      "PackagePath": "staticwebassets\\materialize\\js\\materialize.min.js"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BookShop.PortalWWW.Microsoft.AspNetCore.StaticWebAssets.props",
