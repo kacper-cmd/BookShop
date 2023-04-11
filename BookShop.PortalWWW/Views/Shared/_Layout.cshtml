@@ -22,7 +22,7 @@
         }*/
 
         #backtotop {
-            display: inline-block;
+          /*  display: inline-block;
             background-color: #0277bd;
             width: 40px;
             height: 40px;
@@ -34,7 +34,20 @@
             right: 20px;
             transition: background-color .3s, opacity .5s, visibility .5s;
             opacity: 0;
+            visibility: hidden;*/
+            display: inline-block;
+            background-color: #0277bd;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            border-radius: 4px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            transition: background-color .3s, opacity .5s, visibility .5s;
+            opacity: 0;
             visibility: hidden;
+            z-index: 1000;
            
         }
 
@@ -65,7 +78,9 @@
                 visibility: visible;
                 align-content: center;
             }
-       
+
+
+   
     </style>
 
 </head>
@@ -203,13 +218,13 @@
                         <span class="badge white-text pink">5</span>
                     </li>
                     <li class="right">
-                        <a href="#top" class="blue-text text-darken-4">Home</a>
+                        <a href="#top"  class="blue-text text-darken-4">Home</a>
                     </li>
                     <li class="right">
                         <a href="#comments" class="blue-text text-darken-4">Categories</a>
                     </li>
                     <li class="right">
-                        <a href="#chicken" class="blue-text text-darken-4">Books</a>
+                        <a href="Book/Index" class="blue-text text-darken-4">Books</a>
                     </li>
                    
 
@@ -219,7 +234,7 @@
         </nav>
         <ul id="mobilemenu" class="sidenav right hide-on-large-only white">
             <li>
-                <a href="#top" class="blue-text text-darken-4">
+                <a href="#" class="blue-text text-darken-4">
                     <i class="material-icons">home</i>Home
               
             </a>
@@ -259,12 +274,25 @@
         </ul>
     </header>
 
+
+
+
+
+
     <main>
+
+
+
+
 
 
     
         @RenderBody()
-    
+        <a id="backtotop">
+            <i class="material-icons">arrow_upward</i>
+        </a>
+        
+        
  
 </main>
 
@@ -329,6 +357,30 @@
             $('html, body').animate({ scrollTop: 0 }, '300');
         });
         //back to top end
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const inputField = document.querySelectorAll('.autocomplete');
+            M.Autocomplete.init(inputField, {
+                data: {
+                    "Apple": null,
+                    "Microsoft": null,
+                    "Google": null,
+                    "Amazon": null,
+                    "Facebook": null,
+                    "Twitter": null,
+                    "Instagram": null,
+                },
+                limit: 5
+                
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            //modals
+            const box = document.querySelectorAll('.modal');
+            M.Modal.init(box, { opacity: 0.6, inDuration: 300, outDuration: 375, dismissible: false });
+
+        });
 
     </script>
 </body>

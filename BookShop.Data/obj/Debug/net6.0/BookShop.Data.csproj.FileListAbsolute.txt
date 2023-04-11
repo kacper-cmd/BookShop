@@ -1,0 +1,14 @@
+C:\Users\kacpe\Desktop\ASPNETKACPEROBRZUT\BookShop\BookShop.Data\bin\Debug\net6.0\BookShop.Data.deps.json
+C:\Users\kacpe\Desktop\ASPNETKACPEROBRZUT\BookShop\BookShop.Data\bin\Debug\net6.0\BookShop.Data.dll
+C:\Users\kacpe\Desktop\ASPNETKACPEROBRZUT\BookShop\BookShop.Data\bin\Debug\net6.0\BookShop.Data.pdb
+C:\Users\kacpe\Desktop\ASPNETKACPEROBRZUT\BookShop\BookShop.Data\obj\Debug\net6.0\BookShop.Data.csproj.AssemblyReference.cache
+C:\Users\kacpe\Desktop\ASPNETKACPEROBRZUT\BookShop\BookShop.Data\obj\Debug\net6.0\BookShop.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kacpe\Desktop\ASPNETKACPEROBRZUT\BookShop\BookShop.Data\obj\Debug\net6.0\BookShop.Data.AssemblyInfoInputs.cache
+C:\Users\kacpe\Desktop\ASPNETKACPEROBRZUT\BookShop\BookShop.Data\obj\Debug\net6.0\BookShop.Data.AssemblyInfo.cs
+C:\Users\kacpe\Desktop\ASPNETKACPEROBRZUT\BookShop\BookShop.Data\obj\Debug\net6.0\BookShop.Data.csproj.CoreCompileInputs.cache
+C:\Users\kacpe\Desktop\ASPNETKACPEROBRZUT\BookShop\BookShop.Data\obj\Debug\net6.0\BookShop.Data.dll
+C:\Users\kacpe\Desktop\ASPNETKACPEROBRZUT\BookShop\BookShop.Data\obj\Debug\net6.0\refint\BookShop.Data.dll
+C:\Users\kacpe\Desktop\ASPNETKACPEROBRZUT\BookShop\BookShop.Data\obj\Debug\net6.0\BookShop.Data.pdb
+C:\Users\kacpe\Desktop\ASPNETKACPEROBRZUT\BookShop\BookShop.Data\obj\Debug\net6.0\ref\BookShop.Data.dll
+C:\Users\kacpe\Desktop\ASPNETKACPEROBRZUT\BookShop\BookShop.Data\bin\Debug\net6.0\BookShop.Data.runtimeconfig.json
+C:\Users\kacpe\Desktop\ASPNETKACPEROBRZUT\BookShop\BookShop.Data\obj\Debug\net6.0\BookShop.Data.genruntimeconfig.cache
