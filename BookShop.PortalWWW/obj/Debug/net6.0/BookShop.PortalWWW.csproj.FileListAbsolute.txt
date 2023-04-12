@@ -66,3 +66,5 @@ C:\Users\kacpe\Desktop\ASPNETKACPEROBRZUT\BookShop\BookShop.PortalWWW\bin\Debug\
 C:\Users\kacpe\Desktop\ASPNETKACPEROBRZUT\BookShop\BookShop.PortalWWW\obj\Debug\net6.0\BookShop.PortalWWW.csproj.CopyComplete
 C:\Users\kacpe\Desktop\ASPNETKACPEROBRZUT\BookShop\BookShop.PortalWWW\bin\Debug\net6.0\Humanizer.dll
 C:\Users\kacpe\Desktop\ASPNETKACPEROBRZUT\BookShop\BookShop.PortalWWW\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\kacpe\Desktop\ASPNETKACPEROBRZUT\BookShop\BookShop.PortalWWW\bin\Debug\net6.0\BookShop.Data.dll
+C:\Users\kacpe\Desktop\ASPNETKACPEROBRZUT\BookShop\BookShop.PortalWWW\bin\Debug\net6.0\BookShop.Data.pdb

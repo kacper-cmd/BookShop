@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BookShop.Data.Data;
+using BookShop.Data.Data.Shop;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using BookShop.Intranet.Data;
-using BookShop.Intranet.Models.Shop;
+
 
 namespace BookShop.Intranet.Controllers
 {

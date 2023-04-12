@@ -1,12 +1,16 @@
-﻿@model IEnumerable<BookShop.Intranet.Models.Shop.Category>
+﻿@model IEnumerable<BookShop.Data.Data.Shop.Category>
 
 @{
     ViewData["Title"] = "Index";
 }
 
+
+
 <h1>Index</h1>
 
-<p>
+
+
+@*<p>
     <a asp-action="Create">Create New</a>
 </p>
 <table class="table">
@@ -45,3 +49,158 @@
 }
     </tbody>
 </table>
+*@
+        
+<div class="form-group m-2">
+    
+    <a class="btn btn-primary" asp-action="Create">Create New</a>
+</div>
+
+@*<div class="card-body">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">
+                            @Html.DisplayNameFor(model => model.Name)
+                        </th>
+                        <th scope="col">
+                            @Html.DisplayNameFor(model => model.IsActive)
+                        </th>
+                        <th scope="col">
+                            @Html.DisplayNameFor(model => model.ImageNameUrl)
+                        </th>
+                        <th scope="col">Actions</th>
+                   
+                    </tr>
+            
+                    </thead>
+                    <tbody>
+                    @{
+                        int index = 1;
+                    }
+                
+                    @foreach (var item in Model) {
+                        <tr>
+                            <th scope="row">@index</th>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Name)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.IsActive)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ImageNameUrl)
+                            </td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.CategoryId" class="btn btn-success"><i class="bi bi-pencil"></i></a> 
+                                <a asp-action="Details" asp-route-id="@item.CategoryId" class="btn btn-primary"><i class="bi bi-eye"></i></a>
+                                <a asp-action="Delete" asp-route-id="@item.CategoryId" class="btn btn-danger"><i class="bi bi-trash"></i></a>
+                            </td>
+                            @{
+                                index++;
+                            }
+                        </tr>
+                    }
+                
+
+                
+
+                
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>*@
+
+
+
+<section class="section">
+    <div class="row">
+        <div class="col-lg-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Category</h5>
+
+
+
+                  
+                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">
+                                                    @Html.DisplayNameFor(model => model.Name)
+                                                </th>
+                                                <th scope="col">
+                                                    @Html.DisplayNameFor(model => model.IsActive)
+                                                </th>
+                                                <th scope="col">
+                                                    @Html.DisplayNameFor(model => model.ImageNameUrl)
+                                                </th>
+                                                <th scope="col">Actions</th>
+
+                                            </tr>
+
+                                        </thead>
+                                        <tbody>
+                                            @{
+                                                int index = 1;
+                                            }
+
+                                            @foreach (var item in Model)
+                                            {
+                                                <tr>
+                                                    <th scope="row">@index</th>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.Name)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.IsActive)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.ImageNameUrl)
+                                                    </td>
+                                                    <td>
+                                                        <a asp-action="Edit" asp-route-id="@item.CategoryId" class="btn btn-success"><i class="bi bi-pencil"></i></a>
+                                                        <a asp-action="Details" asp-route-id="@item.CategoryId" class="btn btn-primary"><i class="bi bi-eye"></i></a>
+                                                        <a asp-action="Delete" asp-route-id="@item.CategoryId" class="btn btn-danger"><i class="bi bi-trash"></i></a>
+                                                    </td>
+                                                    @{
+                                                        index++;
+                                                    }
+                                                </tr>
+                                            }
+
+
+
+
+
+
+                                        </tbody>
+                                    </table>
+                         
+                 
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+
+            </div>
+        </div>
+        </div>
+    </div>
+</section>

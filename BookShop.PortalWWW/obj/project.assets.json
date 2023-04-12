@@ -782,6 +782,20 @@
             "rid": "win"
           }
         }
+      },
+      "BookShop.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.16",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.16"
+        },
+        "compile": {
+          "bin/placeholder/BookShop.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookShop.Data.dll": {}
+        }
       }
     }
   },
@@ -2003,10 +2017,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "BookShop.Data/1.0.0": {
+      "type": "project",
+      "path": "../BookShop.Data/BookShop.Data.csproj",
+      "msbuildProject": "../BookShop.Data/BookShop.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BookShop.Data >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.16",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.16",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.16",
@@ -2045,7 +2065,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.Data\\BookShop.Data.csproj": {
+              "projectPath": "C:\\Users\\kacpe\\Desktop\\ASPNETKACPEROBRZUT\\BookShop\\BookShop.Data\\BookShop.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
