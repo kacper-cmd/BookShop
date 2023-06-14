@@ -13,16 +13,16 @@
 
                     @if (!string.IsNullOrEmpty(ViewBag.Message))
                     {
-                        <p class="mb-0 text-danger">@ViewBag.Message</p>
+                        <p class="alert mb-0 text-danger">@ViewBag.Message</p>
                     }
                 </div>
                 <div class="card-body">
                     <form method="post" asp-action="Register" asp-controller="Account">
                         <div class="mb-3">
-                            <input type="text" class="form-control" placeholder="Name" name="username" aria-label="Name">
+                            <input type="text" class="form-control" placeholder="Name" name="username" value="@ViewBag.Username" aria-label="Name">
                         </div>
                         <div class="mb-3">
-                            <input type="email" class="form-control" placeholder="Email" name="email" aria-label="Email">
+                            <input type="email" class="form-control" placeholder="Email" name="email" value="@ViewBag.Email" aria-label="Email">
                         </div>
                         <div class="mb-3">
                             <input type="password" class="form-control" placeholder="Password" name="password" aria-label="Password">

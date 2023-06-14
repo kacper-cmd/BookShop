@@ -28,31 +28,40 @@ namespace ClothesShop.PortalWWW.Services
         {
             try
             {
-                //var user = _context.User.SingleOrDefault(x => x.Username == username && x.Password == password);
                 var user = _context.User.FirstOrDefault(x => x.Username == username);
 
-                if (user != null && VerifyPassword(password, user.Password))
+                if (user != null)
                 {
-                    return new LoginResult
+                    if (VerifyPassword(password, user.Password))
                     {
-                        IsSuccessful = true,
-                        ErrorMessage = "Login successful",
-                        User = user
-                    };
-
+                        return new LoginResult
+                        {
+                            IsSuccessful = true,
+                            ErrorMessage = "Login successful",
+                            User = user
+                        };
+                    }
+                    else
+                    {
+                        return new LoginResult
+                        {
+                            IsSuccessful = false,
+                            ErrorMessage = "Password does not match",
+                            User = null
+                        };
+                    }
                 }
                 else
                 {
                     return new LoginResult
                     {
                         IsSuccessful = false,
-                        ErrorMessage = "Invalid username or password",
+                        ErrorMessage = "Invalid username",
                         User = null
                     };
                 }
-
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 return new LoginResult
                 {
@@ -67,14 +76,37 @@ namespace ClothesShop.PortalWWW.Services
         {
 
             return Crypto.VerifyHashedPassword(storedPassword, enteredPassword);
-           // return enteredPassword == storedPassword;
-
         }
 
         public LoginResult Register(string username, string password, string email)
         {
             try
             {
+
+                bool usernameExists = _context.User.Any(u => u.Username == username);
+                bool emailExists = _context.User.Any(u => u.Email == email);
+
+                if (usernameExists)
+                {
+                    return new LoginResult
+                    {
+                        IsSuccessful = false,
+                        User = null,
+                        ErrorMessage = "Username already exists."
+                    };
+                }
+
+                if (emailExists)
+                {
+                    return new LoginResult
+                    {
+                        IsSuccessful = false,
+                        User = null,
+                        ErrorMessage = "Email already exists."
+                    };
+                }
+
+
                 var hashedPassword = Crypto.HashPassword(password);
                 var user = new User
                 {
@@ -88,6 +120,7 @@ namespace ClothesShop.PortalWWW.Services
                 return new LoginResult
                 {
                     IsSuccessful = true,
+                    ErrorMessage = "Registration successful",
                     User = user
                 };
             }
@@ -96,6 +129,7 @@ namespace ClothesShop.PortalWWW.Services
                 return new LoginResult
                 {
                     IsSuccessful = false,
+                    ErrorMessage = "An error occurred during registration",
                     User = null
                 };
             }

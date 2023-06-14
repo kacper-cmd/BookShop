@@ -40,13 +40,16 @@ namespace ClothesShop.PortalWWW.Controllers
                 }
                 else
                 {
-                    //Response.Cookies.Delete("rememberedUser");
+                    var options = new CookieOptions();
+                    Response.Cookies.Append("rememberedUser", username, options);
                 }
                 return RedirectToAction("Index", "Home");
             }
             else
             {
-                ViewBag.Message = "Invalid name or password";
+                ViewBag.Username = username;
+                ViewBag.Message = user.ErrorMessage;
+                HttpContext.Session.Remove("username");
                 return View("Index");
             }
         }
@@ -60,7 +63,7 @@ namespace ClothesShop.PortalWWW.Controllers
         {
             if(string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password) || string.IsNullOrEmpty(email))
             {
-                ViewBag.Message = "Invalid name or password";
+                ViewBag.Message = "Enter name, email and password !";
                 return View("Register");
             }
 
@@ -77,7 +80,10 @@ namespace ClothesShop.PortalWWW.Controllers
             }
             else
             {
-                ViewBag.Message = "Registration failed";
+                // ViewBag.Message = "Registration failed";
+                ViewBag.Message = registerResult.ErrorMessage;
+                ViewBag.Username = username;
+                ViewBag.Email = email;
                 return View("Register");
             }
 
